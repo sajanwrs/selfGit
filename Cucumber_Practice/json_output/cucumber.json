@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Facebook login",
+        "description": "",
+        "id": "login;facebook-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3451731890,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i open a browser",
+            "match": {
+              "location": "StepDefinition.i_open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3319772324,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i navigate to facebook",
+            "match": {
+              "location": "StepDefinition.i_navigate_to_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1141785746,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i put username as \"email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_put_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194289096,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i put password as \"blah\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blah",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.i_put_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9947355983,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on login",
+            "match": {
+              "location": "StepDefinition.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199042414,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i close the browser",
+            "match": {
+              "location": "StepDefinition.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/mdrahman/Desktop/Bit Tech /eclipse/Cucumber_Practice/facebook.feature"
+  }
+]
